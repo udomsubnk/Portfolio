@@ -1,5 +1,7 @@
 body{
 	background-color: #000;
+	font-family: Avenir, Arial, sans-serif;
+	font-style: normal;
 }
 aside{
 	width: 25%;
@@ -25,16 +27,16 @@ aside{
 }
 .profile{
 	width: 100%;
-	height: 40%;
+	/*height: 42%;*/
 	/*min-height: 270px;*/
-	/*border-bottom: 1px #2F2F2F solid;*/
-	border-bottom: 1px solid #05CD00;
+	border-bottom: 1px #2F2F2F solid;
 }
 .profile-pic{
 	margin: auto;
-	/*background-image: url('../images/kao-2.jpg');*/
+	background-image: url('../images/kao-1.jpg');
 	background-color: #CDC26F;
-	background-size: cover;
+	background-size: 200%;
+	background-position: -65px 0px;
 	width: 150px;
 	height: 150px;
 	border-radius: 100px;
@@ -49,8 +51,8 @@ aside{
 }
 .menu{
 	width: 100%;
-	height: 100%;
-	background-color: #FFDE90;
+	height: 350px;
+	padding-left: 20%;
 }
 .xx{
 	width: 100%;
@@ -70,4 +72,26 @@ aside{
 		width: 100%;
 		margin-left: 0;
 	}
+}
+.social{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.icon{
+	margin-left: 3%;
+}
+.name{
+	font-size: 20px;
+}
+.position{
+	color: #868686;
+}
+.link{
+	margin-top: 30px;
+	width: 100%;
+	height: 50px;
+	font-size: 24px;
+	color : #fff;
+	/*background-color: #fff;*/
+	border-bottom: #000 1px solid;
 }
